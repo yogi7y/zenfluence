@@ -7,11 +7,12 @@ const elementsToHide = [
   '[data-testid="object-header-container"]',
   '[data-testid="grid-topNav"]',
   '[data-testid="ak-editor-main-toolbar"]',
+  '[data-testid="toolbar-above-title-wrapper"]',
+  '[data-testid="content-topper-wrapper"]',
+  '[data-testid="blank-page-quick-actions-container"]',
+  '[data-testid="object-sidebar-container"]',
+  '[data-testid="help-menu-wrapper"]',
   "#side-navigation",
-  // Examples of additional elements to hide:
-  // '[data-testid="another-element-id"]',
-  // '.some-class-name',
-  // '#some-id'
 ];
 
 // Function to toggle elements visibility
