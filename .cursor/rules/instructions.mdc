@@ -1,0 +1,21 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+**Project: Confluence Zen Mode Chrome Extension**
+
+1. **What we're building:**
+   Create a Chrome browser extension that provides a distraction-free "zen mode" for Confluence pages by hiding UI elements like menus, toolbars, sidebars, and other interface clutter, leaving only the main content editor visible and nothing else.
+
+2. **Why we're building it:**
+   To improve focus and productivity when writing or editing content in Confluence by removing visual distractions, creating a cleaner workspace that emphasizes just the content being worked on.
+
+3. **Development guidelines:**
+   - Follow Chrome extension best practices and manifest v3 standards
+   - Implement clean, maintainable JavaScript using modern patterns
+   - Create toggleable functionality so users can switch between zen mode and normal mode
+   - Ensure the extension works reliably across different Confluence instances
+   - Handle Confluence updates gracefully by using resilient CSS selectors
+   - Consider performance impact and optimize accordingly.
