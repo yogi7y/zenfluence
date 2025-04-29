@@ -5,9 +5,9 @@ A simple Chrome extension that hides UI elements in Confluence pages for distrac
 ## Features
 
 - Hides specific UI elements in Confluence pages
-- Toggle visibility with keyboard shortcut: `Ctrl+Shift+Z`
+- Toggle visibility with keyboard shortcut: `Ctrl+Shift+Z` (Windows) or `Cmd+Shift+Z` (Mac)
 - Automatically handles dynamically loaded elements
-- Easily customizable: just add selectors to the list in content.js
+- Creates a clean, focused writing environment
 
 ## Installation
 
@@ -19,7 +19,8 @@ A simple Chrome extension that hides UI elements in Confluence pages for distrac
 ## Usage
 
 1. Navigate to any Confluence page
-2. Press `Ctrl+Shift+Z` to toggle element visibility
+2. Press `Ctrl/Cmd+Shift+Z` to toggle zen mode on/off
+3. Enjoy distraction-free writing and editing!
 
 ## Customization
 
@@ -37,18 +38,6 @@ const elementsToHide = [
   "#some-id",
 ];
 ```
-
-## Development
-
-### Project Structure
-
-- `manifest.json` - Extension configuration
-- `content.js` - Script that runs on Confluence pages
-- `content-styles.css` - Styles injected into Confluence pages
-- `popup.html` - Extension popup UI
-- `popup.js` - JavaScript for the popup
-- `popup.css` - Styles for the popup
-- `icons/` - Extension icons
 
 ## Contributing
 
